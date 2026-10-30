@@ -1,0 +1,67 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/ws/01001000/json/?"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "cep": "01001-000",
+          "logradouro": "Praça da Sé",
+          "complemento": "lado ímpar",
+          "bairro": "Sé",
+          "localidade": "São Paulo",
+          "uf": "SP",
+          "ibge": "3550308",
+          "gia": "1004",
+          "ddd": "11",
+          "siafi": "7107"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/ws/22041011/json/?"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "cep": "22041-011",
+          "logradouro": "Avenida Atlântica",
+          "complemento": "de 2 a 514 - lado par",
+          "bairro": "Copacabana",
+          "localidade": "Rio de Janeiro",
+          "uf": "RJ",
+          "ibge": "3304557",
+          "gia": "",
+          "ddd": "21",
+          "siafi": "6001"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/ws/00000000/json/?"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "erro": true
+        }
+      }
+    }
+  ]
+}
